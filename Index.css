@@ -1,0 +1,48 @@
+:root
+{
+    --ColorA : #193948;
+    --ColorB : #FCDC73;
+    --ColorC : #E76268;
+    --ColorD : #4FADC0;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: var(--ColorA);
+    text-align: center;
+}
+.Main
+{
+    display: grid;
+    place-items: center;
+    background-color: var(--ColorD);
+    width: 70vw;
+    height: 50vh;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px var(--ColorD);
+}
+button
+{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: var(--ColorB);
+    color: var(--ColorA);
+}
+#Joke
+{
+    padding: 20px;
+}
+button:hover
+{
+    cursor: pointer;
+}
